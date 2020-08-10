@@ -22,7 +22,7 @@ d_b = np.linspace(da, db, num, endpoint=True)   #使SOBP平滑的范围上限
 D_0 = np.ones(num) #计划剂量
 D_BP = np.where(d<=R , 1/(density*P*a**(1/P)*(R-d)**(1-(1/P))) , 0)#布拉格峰曲线
 print(D_BP)
-#plt.plot (d , D_BP ,"ro-") # 绘制布拉格峰曲线
+plt.plot (d , D_BP ,"ro-") # 绘制布拉格峰曲线
 
 r = ((da - d)/(db - da))**(1/3)
 D_SOBP = D_0*(3/4+((3**(1/2))/(4*pi))*np.log(((1 + r)**2)/(1 - r + r**2)) - (3/(2*pi))*(np.arctan((2*r - 1)/(3**(1/2)))))
