@@ -10,7 +10,7 @@ Numpy是Python中科学计算的基础包。提供多维数组对象，各种派
 * 优点：Numpy以近C速度执行运算，且NumPy的语法简单！
 * 两个特征：矢量化和广播。（大部分功能的基础）
 
-灵活性使NumPy数组方言和NumPy ndarray 类成为在Python中使用的多维数据交换的首选对象。
+灵活性使NumPy数组方言和NumPy ndarray 类成为在Python中使用的多维数据交换的首选对象 。
 
 NumPy 通常与 SciPy（Scientific Python）和 Matplotlib（绘图库）一起使用， 这种组合广泛用于替代 MatLab，是一个强大的科学计算环境，有助于我们通过 Python 学习数据科学或者机器学习。
 

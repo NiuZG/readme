@@ -32,7 +32,7 @@ plt.plot (d,D,"b") # 绘制SOBP曲线
 r = ((da - d)/(db - da))**(1-1/P)
 D_SOBP = D_0*(3/4+((3**(1/2))/(4*pi))*np.log(((1 + r)**2)/(1 - r + r**2)) - (3/(2*pi))*(np.arctan((2*r - 1)/(3**(1/2)))))
 D = np.where(d<=da, D_SOBP,D_0)
-plt.plot (d,D,"g") # 绘通用SOBP曲线
+#plt.plot (d,D,"g") # 绘通用SOBP曲线
 
 bp = 1/(density*P*a**(1/P)*(R-d)**(1-(1/P)))
 s = np.zeros(num)
